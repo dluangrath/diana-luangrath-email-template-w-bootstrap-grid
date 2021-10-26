@@ -1,0 +1,89 @@
+.side-menu {
+    background-color: #423e37;
+    height: 100vh;    
+}
+
+.greeting {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#compose-btn {
+    background-color: orange;
+    border: orange;
+    margin-bottom: 75px;
+    margin-top: 25px;
+}
+
+
+.list-group-item {
+    background-color: #423e37;
+    color: white;
+   
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.email-cards {
+    background-color: rgb(238, 236, 232);
+    height: 100vh;
+}
+
+
+.card-body {
+    background-color: rgb(238, 236, 232);
+}
+
+.to {
+    margin-bottom: 0;
+    
+}
+
+.icons {
+    display: flex;
+    margin: 10px 0 0 auto;
+    gap: 15px;
+    opacity: 0.5;
+   
+
+}
+
+.email-content {
+    margin-top: 30px;
+
+}
+
+#reply-text {
+    margin-top: 100px;
+}
+
+#reply-bar {
+    position: absolute;
+    bottom: 10px; 
+    right: 40px; 
+    color: lightgray;
+   
+} 
+
+#reply-btn {
+    color: orange;
+    border-style: solid;
+    border-width: 2px;
+    border-color: orange;
+    padding: 2px;
+}
+
