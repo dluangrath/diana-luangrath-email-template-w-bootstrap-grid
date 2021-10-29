@@ -7,6 +7,7 @@
     color: white;
     display: flex;
     align-items: center;
+    
 }
 
 #compose-btn {
@@ -17,10 +18,9 @@
 }
 
 
-.list-group-item {
+.list-group-item {   
     background-color: #423e37;
-    color: white;
-   
+    color: white;  
 }
 
 .has-search .form-control {
@@ -58,8 +58,7 @@
     margin: 10px 0 0 auto;
     gap: 15px;
     opacity: 0.5;
-   
-
+    justify-content: flex-end;
 }
 
 .email-content {
@@ -72,9 +71,10 @@
 }
 
 #reply-bar {
-    position: absolute;
-    bottom: 10px; 
-    right: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
     color: lightgray;
    
 } 
